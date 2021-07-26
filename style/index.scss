@@ -12,7 +12,6 @@ body {
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  //background: linear-gradient(0deg,$tone2,$tone3), url("../assets/images/portrait.jpg");
   background: linear-gradient(25deg, $shade, $tone2);
   height: 100%;
   background-size:cover;
@@ -154,7 +153,7 @@ body {
         width: 0;
       }
       10%, 23% {
-        width: 14em;
+        width: 18em;
       }
     }
 
@@ -205,5 +204,41 @@ body {
       text-decoration: none;
       color: white;
     }
+  }
+}
+
+.card-404 {
+  background-color: black;
+  width: 60%;
+  height: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  border-radius: 20px;
+
+  .card-404-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    color: $typer;
+    font-weight: 600;
+    font-family: 'Roboto Mono';
+    font-size: 6vmin;
+    margin: 0;
+  }
+
+  h2 {
+    color: $tone1;
+    font-family: 'Roboto Mono';
+    font-size: 3vmin;
+  }
+
+  button {
+    background-color: linear-gradient(25deg, #46e52d 0%,#27493a 65%) !important;
   }
 }
