@@ -237,6 +237,19 @@ body {
 }
 
 .card-404 button {
-  background-color: linear-gradient(25deg, #46e52d 0%, #27493a 65%) !important;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 1em;
+  margin: 2vmin;
+  border: none;
+  font-family: 'Roboto Mono';
+  cursor: pointer;
+  color: #6B6E70;
+}
+
+.card-404 button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  color: blacks;
 }
 /*# sourceMappingURL=index.css.map */
