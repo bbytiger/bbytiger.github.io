@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   background: linear-gradient(25deg, #6B6E70, #222629);
-  height: 100%;
+  min-height: 100%;
   background-size: cover;
   z-index: -50;
 }
@@ -251,5 +251,81 @@ body {
   transform: scale(1.1);
   transition: 0.3s;
   color: blacks;
+}
+
+.about-me-wrapper {
+  background-color: black;
+  width: 80%;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+
+.about-me-wrapper .circular-profile {
+  width: 300px;
+  height: 300px;
+  margin: 2vmin;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-me-wrapper .circular-profile img {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: scale(0.6) translate(-85%, -85%);
+}
+
+.about-me-wrapper h1 {
+  color: #75fc48;
+  font-weight: 600;
+  font-family: 'Roboto Mono';
+  font-size: 3em;
+  margin: 0;
+}
+
+.about-me-wrapper h2 {
+  color: #98eb2c;
+  font-family: 'Roboto Mono';
+  font-size: 1em;
+  width: 40%;
+}
+
+.about-me-wrapper .about-work {
+  font-family: 'Roboto Mono';
+  color: #98eb2c;
+}
+
+.check-out {
+  display: flex;
+  padding: 0;
+  color: #98eb2c;
+}
+
+.check-out li {
+  margin: 2vmin;
+  list-style-type: none;
+  flex: 1;
+  text-align: center;
+  padding: 0.2em;
+}
+
+.check-out li:hover {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  background: #6B6E70;
+  border-radius: 20px;
+  color: #75fc48;
 }
 /*# sourceMappingURL=index.css.map */
